@@ -1,0 +1,7 @@
+path: F:\Git Repos\MunchieDetection\dataset
+train: F:\Git Repos\MunchieDetection\dataset\images\train
+val: F:\Git Repos\MunchieDetection\dataset\images\val
+
+nc: 2 
+
+names: ["Howl", "Munchie"]
