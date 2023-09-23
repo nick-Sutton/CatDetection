@@ -1,13 +1,12 @@
 #yolo task=detect mode=train epochs=200 data=dataset/dataset.yaml model=yolov8m.pt imgsz=640 batch=8
+import cv2, cvzone, math
+from ultralytics import YOLO
 
 def cam():
-    import cv2, cvzone, math
-    from ultralytics import YOLO
-
     cap = cv2.VideoCapture(0)
     cap.set(3,1280)
     cap.set(4,720)
-    model = YOLO("../yolov8m_custom.pt")
+    model = YOLO("../src/yolov8m_custom.pt")
 
     classNames = ["Howl", "Munchie"]
 
