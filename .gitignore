@@ -9,6 +9,8 @@
 */Makefile
 */cmake_install.cmake
 .DS_Store
+dataset/
+runs/
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
