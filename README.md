@@ -1,6 +1,8 @@
 # CatDetection
 A computer vision program created with OpenCV to detect my cats. The Object detection was trained using a custom dataset with over 150 labeled images of my two cats.
 
+I am currently working on expanding the dataset to improve accuracy.
+
 # Examples
 ![val_batch1_pred](https://github.com/nick-Sutton/CatDetection/assets/136986806/05cd9328-dca1-4ce4-8304-5e731ffc7445)
 ![val_batch0_pred](https://github.com/nick-Sutton/CatDetection/assets/136986806/6c6a1b29-7cde-4808-b43a-78d85c30781c)
